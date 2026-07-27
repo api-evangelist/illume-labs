@@ -1,22 +1,62 @@
 aid: illume-labs
 name: Illume Labs
-description: Illume Labs is a company surfaced as a portfolio company of y-combinator and added to the
-  API Evangelist network as a stub for enrichment. This profile is a lead awaiting the enrichment pipeline.
+description: >-
+  Illume Labs is a Y Combinator (Summer 2026) startup building a 24/7 AI
+  personal health and longevity companion. Its platform is designed to connect a
+  user's wearables, blood panels, and genomic data, then text them personalized,
+  actionable insights — detecting patterns across data sources, answering health
+  questions conversationally, and offering an interactive surface for deeper
+  exploration of longevity signals. As of mid-2026 the company is pre-launch and
+  operates a single marketing landing page ("A new lens on longevity") on Vercel
+  with no public API, developer portal, SDK, or documentation surface yet
+  published. This profile remains a network lead pending a public developer
+  surface to enrich.
 url: https://raw.githubusercontent.com/api-evangelist/illume-labs/refs/heads/main/apis.yml
+accessModel:
+  pricing: unknown
+  onboarding: unknown
+  trial: false
+  try_now: false
+  public: false
+  label: Unknown
+  confidence: low
+  source: []
+  generated: '2026-07-22'
+  method: derived
+image: https://www.illumelabs.ai/favicon.svg
 x-type: company
 x-source: vc-portfolio
 x-backed-by:
 - y-combinator
+x-yc-batch: Summer 2026
 x-tier: stub
-x-tier-reason: portfolio-lead
+x-tier-reason: portfolio-lead-no-public-api
 specificationVersion: '0.20'
 created: '2026-07-17'
-modified: '2026-07-17'
+modified: '2026-07-19'
 tags:
 - Company
+- Artificial Intelligence
+- Health
+- Longevity
+- Wearables
+- Genomics
+- Digital Health
+- Consumer Health
+- Personalized Medicine
 apis: []
+common:
+- type: DomainSecurity
+  url: security/illume-labs-domain-security.yml
+- type: Website
+  url: https://www.illumelabs.ai/
 maintainers:
 - FN: Kin Lane
   email: kin@apievangelist.com
 - FN: APIs.json
   email: info@apis.io
+x-enrichment:
+  date: '2026-07-19'
+  status: backfilled
+  pass: local-v1
+  note: backfilled from .gitignore signal + verified work evidence
